@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<title>Drawing Canvas</title>
+<header>
+<h1 align="center">Canvas</h1>
+<p class="tagline" align="center">A Place to Draw</p>
+</header>
+<script src="script.js"></script>
+<script src="jquery-1.4.2.js"></script>
+</head>
+<body>
+<canvas id="a" width="500" height="370" style="border:1px dotted;float:left;" onclick='my_draw("a");return false;'></canvas></td>
+<form name="choice" id="choice" method="post">
+<input name="choice" id="choice1" type="radio" value="draw_nodes" checked="checked"/></td><td>Draw Nodes</td></tr>
+<input name="choice" id="choice2" type="radio" value="draw_arcs"/></td><td>Draw Arcs</td></tr>
+<input name="choice" id="choice3"type="radio" value="end" onclick="display_list();" /></td><td>End</td></tr>
+</form>
+</body>
+</html>
